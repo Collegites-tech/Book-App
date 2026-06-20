@@ -23,7 +23,7 @@ public class DisplayBookServlet extends HttpServlet {
 		if(booklist.isEmpty())
 			pw.println("<h2>Sorry We do not have any books of the subject "+subject+"!!<h2>");
 		else {
-			pw.println("<h2>Following are the books of Subject "+subject+"</h2> <br><table border='2'>");
+			pw.println("<h2>Following are the books of subject "+subject+"</h2> <br><table border='2'>");
 			pw.println("<tr><th>Book ID</th><th>Book Name</th><th>Book Price</th><th>Subject</th></tr>");
 			
 			for(Book b:booklist) {
