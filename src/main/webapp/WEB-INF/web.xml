@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+  <servlet>
+     <servlet-class>in.bookapp.BookSearchServlet</servlet-class>
+     <servlet-name>BookSearchServlet</servlet-name>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>BookSearchServlet</servlet-name>
+    <url-pattern>/BookSearchServlet</url-pattern>
+  </servlet-mapping>
+ 
+ 
+   <servlet>
+     <servlet-class>in.bookapp.DisplayBookServlet</servlet-class>
+     <servlet-name>DisplayBookServlet</servlet-name>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>DisplayBookServlet</servlet-name>
+    <url-pattern>/DisplayBookServlet</url-pattern>
+  </servlet-mapping>
+ 
+</web-app>
